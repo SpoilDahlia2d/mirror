@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mirror Link</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
 <style>
 body, html {
   margin: 0; padding: 0;
@@ -32,10 +33,17 @@ body, html {
   top: 0; left: 0;
 }
 #hypnoText {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 4rem);
+  color: #ff2fb2;
+  text-shadow: 
+    0 0 10px #ff2fb2,
+    0 0 20px #ff2fb2,
+    0 0 30px #ff2fb2;
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  font-size: clamp(1.5rem, 5vw, 3rem);
   text-align: center;
   animation: blink 1s infinite;
   white-space: pre-line;
